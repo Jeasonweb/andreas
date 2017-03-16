@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Project</title>
+
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+<script type="text/javascript" src="js/html5.js" ></script>
+<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="js/fancydropdown.js" ></script>
+<script src="js/lightbox.js"></script>
+<script type="text/javascript" src="js/functions.js" ></script>
+<script type="text/javascript" >
+$(document).ready(function() {
+    
+	$('.banner').revolution(
+	{
+		delay:9000,
+		startheight:312,
+		startwidth:716,
+		shadow:0
+	});
+	
+});
+</script>
+<!--[if  IE]>
+<link rel="stylesheet" type="text/css" href="css/ie.css" />
+<![endif]-->
+
+</head>
+
+<body>
+	
+    <!-- start div #wrapper -->
+	<div id="wrapper">
+		
+		<!-- start header -->
+        <header>
+			<div class="header-ct">
+            	<div class="logo">
+                	<a href="index.html"><img src="images/logo.png" alt=""></a>
+                </div>
+                <nav class="menu">
+                	<ul>
+                    	<li class="active"><a href="index.html">Home<br><span>Start here</span></a></li>
+                        <li><a href="services.html">About us<br><span>who are we</span></a></li>
+                        <li><a href="features.html">Features<br><span>yes indeed</span></a></li>
+                        <li><a href="portfolio.html">Portfolio<br><span>our work</span></a>
+                        	<ul class="dropdown">
+                            	<li><a href="portfolio.html">Portfolio sortable</a></li>
+                                <li><a href="project.html">Portfolio detail</a></li>
+                                <li><a href="#">I am a submenu</a></li>
+                                <li class="last"><a href="#">Customize me</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="blog.html">Blog<br><span>read us</span></a>
+                        	<ul class="dropdown">
+                            	<li><a href="blog.html">Blog posts</a></li>
+                                <li><a href="blog-single.html">Blog single</a></li>
+                              
+                            </ul>
+                        
+                        </li>
+                        <li><a href="contact.html">Get in touch<br><span>Contact us</span></a></li>
+                    </ul>                                              
+                </nav>
+                 <select class="mobile-menu" onchange='document.location.href=this.options[this.selectedIndex].value;'> 
+                    <option value="">Go To...</option> 
+                    <option value="index.html">Home</option>
+                    <option value="services.html">About us</option>
+                    <option value="features.html">Features</option>
+                    <option value="portfolio.html">Portfolio</option>
+                    <option value="portfolio.html">-Portfolio sortable</option>
+                    <option value="project.html">-Project detail</option>
+                    <option value="blog.html">Blog</option>
+                    <option value="blog.html">-Blog posts</option>
+                    <option value="blog-single.html">-Blog single</option>
+                    <option value="contact.html">Contact us</option>
+                </select>
+                <div class="clear"></div>
+            </div>	
+	    </header>
+	    <!-- end header -->
+		
+        
+		<!-- start div #main -->
+	    <div id="main">
+	    	<div class="main-title">
+            	<div class="main-title-ct">
+                	<div class="left-corner"></div>
+                    <div class="right-corner"></div>
+                    <div class="title-text">
+                    	<div class="icon"></div>
+                    	<p>The Project</p>
+                    </div>
+                    <div class="breadcrumps">
+                    	<ul>
+                        	<li><a href="#">Home</a></li>
+                            <li class="active"><span>&raquo;</span>Project</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+            	<div class="left-container">
+                	<article>
+                        <div class="bannercontainer project">
+                            <div class="banner">
+                                <ul>
+                                    <li data-transition="slideleft">
+                                        <img src="images/prj-slide-1.jpg" alt="">
+                                    </li>
+                                    <li data-transition="slideleft">
+                                        <img src="images/prj-slide-1.jpg" alt="">
+                                    </li>
+                                    <li data-transition="slideleft">
+                                        <img src="images/prj-slide-1.jpg" alt="">
+                                    </li>
+                                </ul>
+                                <div class="tp-bannertimer"></div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                        	<hgroup>
+                            	<h1>it seems like a floating head in the water.</h1>
+                                <h3>Added by <a href="#">admin</a> in <a href="#">Awesomeness</a></h3>
+                            </hgroup>
+                            <div class="post-info">
+                                <ul>
+                                    <li>Date <span>Added</span></li>
+                                    <li class="last date">16 Feb 2013</li>
+                                </ul>
+                                <div class="shaddow"></div>
+                            </div>
+                            <div class="post-info">
+                                <ul>
+                                    <li>Le <span>Client</span></li>
+                                    <li class="last client">Super Client</li>
+                                </ul>
+                                <div class="shaddow"></div>
+                            </div>
+                            <div class="post-info">
+                                <ul>
+                                    <li>Le <span>Category</span></li>
+                                    <li class="last cat">Wordpress</li>
+                                </ul>
+                                <div class="shaddow"></div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="border-bottom"></div>
+                    </article>
+                </div>
+                <div class="right-container">
+                	<div class="sidebar">
+                    	<div class="widget">
+                            <div class="title">
+                                <div class="icon"></div>
+                                <h3>Highlights</h3>
+                                <div class="clear"></div>
+                            </div>
+                            <ul class="categories hl">
+                            	<li><a class="hl-1" href="#">was coded in 2 weeks</a></li>
+                                <li><a class="hl-2" href="#">was builded using bootstrap</a></li>
+                                <li><a class="hl-3" href="#">it’s full responsive on all devices</a></li>
+                                <li><a class="hl-4" href="#">it has 10 premium sliders included</a></li>
+                                <li><a class="hl-5" href="#">psd files were delievered to client</a></li>
+                                <li class="last"><a class="hl-6" href="#">client was amazed</a></li>
+                            </ul>
+                        	<div class="border-bottom"></div>
+                        </div>
+                        <div class="widget">
+                            <div class="title">
+                                <div class="icon"></div>
+                                <h3>launch it</h3>
+                                <div class="clear"></div>
+                            </div>
+                            <a href="#" class="btn btn-small">Visit project.</a><a href="#" class="btn btn-small black">Get a quote.</a> 
+                        	<div class="border-bottom"></div>
+                        </div>
+                	</div>
+                </div>
+            	<div class="clear"></div>
+                <div class="portfolio">
+                    <div class="title">
+                        <div class="icon"></div>
+                        <h3>check out other projects</h3>
+                        <div class="clear"></div>
+                    </div>
+                    <article>
+                    	<div class="post-thumb">
+                        	<img src="images/prj-1-img.jpg" alt="">
+                            <div class="overlay">
+                            	<ul class="icons">
+                                	<li><span class="bg"></span><a href="project.html" class="ic-1"></a></li>
+                                    <li><span class="bg"></span><a href="images/prj-1-img.jpg" rel="lightbox" class="ic-2"></a></li>
+                                </ul>
+                            </div>
+                            <div class="infos">
+                            	<ul>
+                                	<li class="likes">654</li>
+                                    <li class="views">352</li>
+                                    <li class="cat"><a class="cat-1" href="#"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                        	<h2><a href="project.html">Sitting in the garden.</a></h2>
+                            <p>The whole of science is nothing more than a refinement of everyday thinking.</p>
+                        </div>
+                        <div class="border-bottom"></div>
+                    </article>
+                    <article>
+                    	<div class="post-thumb">
+                        	<img src="images/prj-2-img.jpg" alt="">
+                            <div class="overlay">
+                            	<ul class="icons">
+                                	<li><span class="bg"></span><a href="project.html" class="ic-1"></a></li>
+                                    <li><span class="bg"></span><a href="images/prj-2-img.jpg" rel="lightbox" class="ic-2"></a></li>
+                                </ul>
+                            </div>
+                            <div class="infos">
+                            	<ul>
+                                	<li class="likes">654</li>
+                                    <li class="views">352</li>
+                                    <li class="cat"><a class="cat-2" href="#"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                        	<h2><a href="project.html">One happy camper.</a></h2>
+                            <p>The whole of science is nothing more than a refinement of everyday thinking.</p>
+                        </div>
+                        <div class="border-bottom"></div>
+                    </article>
+                    <article class="third">
+                    	<div class="post-thumb">
+                        	<img src="images/prj-3-img.jpg" alt="">
+                            <div class="overlay">
+                            	<ul class="icons">
+                                	<li><span class="bg"></span><a href="project.html" class="ic-1"></a></li>
+                                    <li><span class="bg"></span><a href="images/prj-3-img.jpg" rel="lightbox" class="ic-2"></a></li>
+                                </ul>
+                            </div>
+                            <div class="infos">
+                            	<ul>
+                                	<li class="likes">654</li>
+                                    <li class="views">352</li>
+                                    <li class="cat"><a class="cat-3" href="#"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                        	<h2><a href="project.html">The flying paperplane.</a></h2>
+                            <p>The whole of science is nothing more than a refinement of everyday thinking.</p>
+                        </div>
+                        <div class="border-bottom"></div>
+                    </article>
+                    <div class="clear"></div>
+                </div>	
+            </div>	
+        </div>
+	    <!-- end div #main -->
+        
+        <!-- start footer -->
+        <footer>
+        	<div class="footer-top">
+            	<div class="middle-title">
+                	<p>ANDREAS.</p>
+                </div>
+            </div>
+            <div class="footer-middle">
+            	<div class="footer-middle-ct">
+                	<div class="widget">
+                    	<div class="title">
+                        	<div class="icon"></div>
+                            <h3>About andreas.</h3>
+                            <div class="clear"></div>
+                        </div>
+                        <p>He who joyfully marches to music rank and file, has already earned my contempt. He has been given a large brain by mistake, since for him the spinal cord would surely suffice.</p>
+                        <p>This disgrace to civilization should be done away with at once. Heroism at command, how violently I hate all this, how despicable and ignoble war is.</p>
+                        <ul class="info">
+                        	<li class="address">Salt Lake City, UT 87234</li>
+                            <li class="phone">(871) 321-6567</li>
+                            <li class="mail"><a href="mailto:awesome@website.com">awesome@website.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="widget">
+                    	<div class="title">
+                        	<div class="icon"></div>
+                            <h3>Le flickr feed.</h3>
+                            <div class="clear"></div>
+                        </div>
+                        <ul class="flickr">
+                        	<li><a class="photo" href="#"><img src="images/flikr-img1.jpg" alt=""></a></li>
+                            <li class="second"><a class="photo" href="#"><img src="images/flikr-img2.jpg" alt=""></a></li>
+                            <li><a class="photo" href="#"><img src="images/flikr-img3.jpg" alt=""></a></li>
+                            <li class="second"><a class="photo" href="#"><img src="images/flikr-img4.jpg" alt=""></a></li>
+                            <li><a class="photo" href="#"><img src="images/flikr-img5.jpg" alt=""></a></li>
+                            <li class="second"><a class="photo" href="#"><img src="images/flikr-img6.jpg" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <div class="widget last">
+                    	<div class="title">
+                        	<div class="icon"></div>
+                            <h3>Follow the bird.</h3>
+                            <div class="clear"></div>
+                        </div>
+                        <ul class="tweets">
+                        	<li>I love this awesome freebie that you can check @ <a href="#">http://t.co/9vslJFpW</a><br><span>About 15 mins</span><span class="icon"></span></li>
+                            <li>Check out my brand new webdesign released @ <a href="#">http://t.co/9vslJFpW</a><br><span>About 2 days</span><span class="icon"></span></li>
+                            <li>I love this awesome freebie that you can check @ <a href="#">http://t.co/9vslJFpW</a><br><span>About 3 months</span><span class="icon"></span></li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="top-left-arrow"></div>
+                    <div class="top-right-arrow"></div>
+                    <div class="bottom-left-arrow"></div>
+                    <div class="bottom-right-arrow"></div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+            	<div class="copyright">
+                	<p>Copyright 2013 <span>ANDREAS</span> // <i>The super duper awesome digital agency</i>.</p>
+                </div>
+                <div class="social-menu">
+                	<ul>
+                    	<li><a class="fb" href="#" target="_blank"></a></li>
+                        <li><a class="tw" href="#" target="_blank"></a></li>
+                        <li><a class="oo" href="#" target="_blank"></a></li>
+                        <li><a class="vm" href="#" target="_blank"></a></li>
+                        <li><a class="gp" href="#" target="_blank"></a></li>
+                        <li><a class="cs" href="#" target="_blank"></a></li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>	
+        </footer>
+        <!-- end footer -->
+    
+    </div>
+	<!-- end div #wrapper -->    
+        
+</body>
+
+</html>
